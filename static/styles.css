@@ -1,0 +1,352 @@
+body
+{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h3
+{
+    margin: 0;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li
+{
+    display: block;
+    text-align: center;
+}
+
+.container
+{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+}
+
+#bigLogoHome
+{
+    display: block;
+    max-width: 70%;
+    height: auto;
+    padding-top: 40px;
+}
+
+@media only screen and (min-width: 600px)
+{
+    #bigLogoHome
+    {
+        display: block;
+        max-width: 40%;
+        height: auto;
+        padding-top: 40px;
+    }
+}
+
+#bigLogo
+{
+    display: block;
+    max-width: 60%;
+    height: auto;
+    padding-top: 20px;
+}
+
+@media only screen and (min-width: 600px)
+{
+    #bigLogo
+    {
+        display: block;
+        max-width: 25%;
+        height: auto;
+        padding-top: 20px;
+    }
+}
+
+.homeSelect
+{
+    border-width: 0;
+}
+
+#selector
+{
+    font-size: 1.75rem;
+}
+
+#footer
+{
+    padding-bottom: 0;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#footer1
+{
+    float: left;
+    color: #8a8a8a;
+    margin-top: 11px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#footer2
+{
+    float:right;
+    width: 5vh;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 500px)
+{
+    #footer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #footer1
+    {
+        float: none;
+        text-align: center;
+    }
+
+    #footer2
+    {
+        float: none;
+        text-align: center;
+        margin-left: 40vw;
+    }
+
+}
+
+#instaIcon
+{
+    width: 5vh;
+}
+
+#map
+{
+    height: 30vh;
+    display: flex;
+}
+
+#location
+{
+    height: 25vh;
+    font-size: 1.75vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+    color: #515151;
+}
+
+#menu
+{
+    height: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ff85a5;
+    margin-bottom: 16px;
+    justify-content: space-around;
+    text-shadow: 2px 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.menu1
+{
+    border: 5px solid white;
+    background-image: url("blackboard.png");
+    width: 49vw;
+    height: 30vw;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    line-height: 0.1;
+    font-size: 1vw;
+}
+
+.menu2
+{
+    border: 4px solid white;
+    background-image: url("blackboard.png");
+    width: 33vw;
+    height: 25vw;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    line-height: 0.1;
+    font-size: 1vw;
+}
+
+.tableCenter
+{
+    text-align: center;
+}
+
+.tableDesc
+{
+    font-size: 0.7vw;
+}
+
+@media only screen and (max-width: 1500px)
+{
+    .menu1 p
+    {
+        margin-bottom: 12px;
+
+    }
+    .menu2 p
+    {
+        margin-bottom: 12px;
+
+    }
+}
+
+@media only screen and (max-width: 1100px)
+{
+    .menu1
+    {
+        justify-content: center;
+        width: 90vw;
+        flex-direction: column;
+        font-size: 1.5vw;
+    }
+    .menu2
+    {
+        justify-content: center;
+        width: 70vw;
+        flex-direction: column;
+        font-size: 1.5vw;
+    }
+    .tableDesc
+    {
+        font-size: 1.05vw;
+    }
+
+}
+
+@media only screen and (max-width: 800px)
+{
+    .menu1
+    {
+
+        font-size: 2vw;
+    }
+    .menu2
+    {
+
+        font-size: 2vw;
+    }
+    .tableDesc
+    {
+        font-size: 1.4vw;
+    }
+}
+
+#about
+{
+    display: flex;
+    height: 40vw;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+#gyg
+{
+    position: relative;
+    display: block;
+    width: 49vw;
+    margin: 0;
+}
+
+#gyg img
+{
+    position: absolute;
+    left: 5vw;
+    top: 0;
+    max-width: 35vw;
+    margin: 0;
+}
+
+#abtDesc
+{
+    width: 35vw;
+    height: 25vw;
+}
+
+#aboutTxt
+{
+    width: 100%;
+    height: 100%;
+    background-image: url("aboutTxt.png");
+    background-size: 100% 100%;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 700px)
+{
+    #aboutTxt
+    {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1000px)
+{
+    #about
+    {
+        flex-direction: column;
+        height: 150vw;
+    }
+
+    #gyg
+    {
+        display: flex;
+        height: 100vw;
+        width: 100%
+    }
+
+    #gyg img
+    {
+        max-width: 80vw;
+    }
+
+    #abtDesc
+    {
+        display: flex;
+        width: 70vw;
+        height: 40vw;
+        margin-left: 16vw;
+        margin-bottom: 2vw;
+    }
+}
+
+.top
+{
+	animation-name: fade;
+    animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}

@@ -1,0 +1,174 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Menu
+{% endblock %}
+
+{% block buttons %}
+<li>
+    <a class="btn btn btn-outline-dark btn-lg homeSelect" href="/about">
+        <h3>
+            <b>[</b>
+            ABOUT
+            <b>]</b>
+        </h3>
+    </a>
+</li>
+<li>
+    <a class="btn btn btn-outline-dark btn-lg homeSelect" href="/info">
+        <h3>
+            <b>[</b>
+            INFO
+            <b>]</b>
+        </h3>
+    </a>
+</li>
+{% endblock %}
+
+{% block main %}
+    <div id="menu">
+        <table class="my-auto menu1">
+            <tr>
+                <th rowspan="6" style="writing-mode: vertical-rl; text-orientation: upright; padding: 15px;">SANGAS</th>
+                <th colspan="2" class="tableCenter" style="padding: 15px;">ROLLS</th>
+                <th colspan="2" class="tableCenter" style="padding: 15px;">TOASTIES</th>
+            </tr>
+            <tr>
+                <td>
+                    <p>E & B</p>
+                    <p class="tableDesc">FRIED EGG   STREAKY BACON</p>
+                    <P class="tableDesc">ONION JAM   CHEESE</P>
+                </td>
+                <td class="tableCenter tableDesc">9.99</td>
+                <td>
+                    <P>F O U R   C H E E S E</P>
+                    <P class="tableDesc">SWISSE CHEESE</P><P class="tableDesc">AMERICAN CHEDDAR</P><P class="tableDesc">12 MONTH AGED CHEDDAR</P><P class="tableDesc">MOZZ   GARLIC BUTTER</P>
+                </td>
+                <td class="tableCenter tableDesc">11.99</td>
+            </tr>
+            <tr>
+                <td>
+                    <p>PHILLY CHEESE STEAK</p>
+                    <p class="tableDesc">ROAST BEEF   ONIONS</p>
+                    <p class="tableDesc">AMERICAN CHEESE</p>
+                    <p class="tableDesc">G.SAUCE & CAPS</p>
+                </td>
+                <td class="tableCenter tableDesc">14.99</td>
+                <td>
+                    <P>TUNA MELT</P>
+                    <P class="tableDesc">TUNA SALAD MIX</P>
+                    <p class="tableDesc">AMERICAN CHEDDAR</p>
+                </td>
+                <td class="tableCenter tableDesc">13.99</td>
+            </tr>
+            <tr>
+                <td>
+                    <p>BABI G</p>
+                    <p class="tableDesc">BALINESE ROAST PORK BELLY</p><p class="tableDesc">BITTER GARLIC GREENS</p><p class="tableDesc">FIRE MAYO</p>
+                </td>
+                <td class="tableCenter tableDesc">15.99</td>
+                <td>
+                    <P>H.C.S</P>
+                    <P class="tableDesc">MORTADELLA</P>
+                    <p class="tableDesc">TOMATO SUGO</p>
+                    <p class="tableDesc">MOZZ & CHEDDAR</P>
+                </td>
+                <td class="tableCenter tableDesc">13.99</td>
+            </tr>
+            <tr>
+                <td>
+                    <p>ROAST CHOOK</p>
+                    <P class="tableDesc">WITH STUFFING & GRAVY</P>
+                </td>
+                <td class="tableCenter tableDesc">14.99</td>
+                <td>
+                    <p>LEEK</p>
+                    <p class="tableDesc">CONFIT LEEK WITH THYME,</p>
+                    <p class="tableDesc">TARRAGON & MOZZARELLA</p>
+                </td>
+                <td class="tableCenter tableDesc">14.99</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <p>MUSHROOM</p>
+                    <p class="tableDesc">MUSHROOM FRICASSE</p>
+                    <p class="tableDesc">PARMIGIANO REGGIANO MELT</p>
+                </td>
+                <td class="tableCenter tableDesc">14.99</td>
+            </tr>
+        </table>
+        <!-- 2nd table-->
+        <table class="my-auto menu2">
+            <tr>
+                <th rowspan="6" style="writing-mode: vertical-rl; text-orientation: upright; padding: 10px;"></th>
+                <th colspan="2" class="tableCenter" style="padding: 10px;">D R I N K S</th>
+                <th colspan="2" class="tableCenter" style="padding: 10px;">J U I C E</th>
+            </tr>
+            <tr>
+                <td>
+                    <p>COFFEE</p>
+                    <p class="tableDesc">MILK/BLACK</p>
+                    <p class="tableDesc">BATCH BREW</p>
+                    <p class="tableDesc">ICED LATTE</p>
+                    <p class="tableDesc">COLD BREW</p>
+                </td>
+                <td class="tableCenter tableDesc">
+                    <p></p>
+                    <p>4.50</p>
+                    <p>4.99</p>
+                    <p>5.99</p>
+                    <p>5.99</p>
+                </td>
+                <td>
+                    <p>IMMUNITY</p>
+                    <p class="tableDesc">ORANGE  CARROT</p>
+                    <p class="tableDesc">CELERY  GINGER</p>
+                </td>
+                <td class="tableCenter tableDesc">
+                    9.50
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+            </tr>
+            <tr>
+                <td class="tableDesc">
+                    <p>HOT CHOCOLAE</p>
+                    <p>CHAI</p>
+                    <p>MATCHA</p>
+                </td>
+                <td class="tableCenter tableDesc">
+                        <p>4.50</p>
+                        <p>4.99</p>
+                        <p>4.50</p>
+                </td>
+                <td>
+                    <p>GUS HEALTH</p>
+                    <p class="tableDesc">APPLE  MINT  LEMON</p>
+                    <p class="tableDesc">APPLE CIDER VINEGAR</p>
+                </td>
+                <td class="tableCenter tableDesc">
+                    9.50
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>ICED</p>
+                    <p class="tableDesc">CHOCOLATE</p>
+                    <p class="tableDesc">CHAI</p>
+                    <p class="tableDesc">MATCHA</p>
+                </td>
+                <td class="tableCenter tableDesc">5.99</td>
+                <td>
+                    <p>OJ / AJ</p>
+                </td>
+                <td class="tableCenter tableDesc">7.99</td>
+            </tr>
+        </table>
+    </div>
+{% endblock %}

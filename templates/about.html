@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    About
+{% endblock %}
+
+{% block buttons %}
+<li>
+    <a class="btn btn btn-outline-dark btn-lg homeSelect" href="/menu">
+        <h3>
+            <b>[</b>
+            MENU
+            <b>]</b>
+        </h3>
+    </a>
+</li>
+<li>
+    <a class="btn btn btn-outline-dark btn-lg homeSelect" href="/info">
+        <h3>
+            <b>[</b>
+            INFO
+            <b>]</b>
+        </h3>
+    </a>
+</li>
+{% endblock %}
+
+{% block main %}
+    <div id="about" style="margin-bottom: 20px;">
+        <div id="gyg">
+            <img class="bottom" src={{url_for("static", filename="aboutThanks.png")}} alt="Gus & Giselle">
+            <img class="top" src={{url_for("static", filename="aboutThanksDark.png")}} alt="Gus & Giselle">
+        </div>
+        <div id="abtDesc" style="margin-top: 50px;">
+            <div id="aboutTxt" style="position: relative;">
+                <div style="overflow-x: hidden; overflow-y: scroll; height: 92%; width: 98%; position: absolute; bottom: 6px; left: 6px;">
+                    <p >On the edge of mystic lands, a seed belonging to the primordial winds of fate has sprouted and materialised itself in the form of a family run sandwich shop.</p>
+                    <p>Thanks was started by sibling duo Gus & Giselle to bring you bright colours in primitive shapes, the theme runs from the design down to the sanga.</p>
+                    <p>Simple components with bright flavours, they take the uncomplicated design of a sandwich and saturate it with flavours of nostalgia balanced with the upsampled resolution of modernity. There's no better way to honour your roots than to give it vision.</p>
+                    <p>They also sling mad good coffees and make you go haha if you chat with them, they'll love to have you and Thanks for coming !!1!11!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
